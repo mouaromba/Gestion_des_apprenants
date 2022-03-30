@@ -1,0 +1,143 @@
+body{
+    background-image: url(./images/imge.jpg);
+}
+#lien {
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+    margin: 5px 20px 5px 1070px;
+}
+#container{
+    width:700px;
+    margin:0 auto;
+    margin-top:3%;
+}
+#container-fluid{
+    width:1150px;
+    margin:0 auto;
+    margin-top:3%;
+}
+/* Bordered form */
+form {
+    width:100%;
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #f80a0a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #f80a0a;
+    border: 1px solid #f80a0a;
+}
+input[type=reset] {
+    background-color: #444141;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+}
+input[type=reset]:hover {
+    background-color: white;
+    color: #444141;
+    border: 1px solid #444141;
+}
+#texte1{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+    color: #fff;
+}
+#texte2{
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    color: #fff;
+}
+label {
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+}
+hr{
+    width: 10%;
+    size: 5%;
+    margin: 0px 600px 0px 600px;
+}
+#texte3{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    color: #fff;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+#texte4{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+}
+#bouton {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#liste1 {
+    font-family: algerian;
+    font-size: 25px;
+    word-spacing: 5px;
+}
+#liste2 {
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    word-spacing: 10px;
+}
+
+#text a {
+    color: #fff;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family:algerian;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+table {
+    margin: 10px;
+    border: 1px;
+    width: 100%;
+
+}
+
