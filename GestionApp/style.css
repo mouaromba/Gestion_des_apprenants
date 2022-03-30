@@ -1,5 +1,6 @@
 body{
-    background-image: url(./images/imge.jpg);
+    background-image: url(./images/imge.jpg); 
+    background-repeat: no-repeat;
 }
 #lien {
     font-size: 25px;
