@@ -1,8 +1,11 @@
 body{
-    background-image: url(./images/imge.jpg); 
-    background-repeat: no-repeat;
+    background-image: url(./images/imge.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 #lien {
+    text-decoration: none;
+    color: #fff;
     font-size: 25px;
     font-family: 'Trebuchet MS';
     margin: 5px 20px 5px 1070px;
@@ -82,11 +85,11 @@ input[type=reset]:hover {
     color: #fff;
 }
 #texte2{
-    margin-top: 3%;
+    margin-top: 5%;
     text-align: center;
     font-family: 'Trebuchet MS';
     font-size: 15px;
-    color: #fff;
+    ;color: #fff;
 }
 label {
     font-size: 18px;
@@ -139,6 +142,5 @@ table {
     margin: 10px;
     border: 1px;
     width: 100%;
-
 }
 

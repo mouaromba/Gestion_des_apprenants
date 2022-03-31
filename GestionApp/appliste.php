@@ -16,10 +16,11 @@
                 <div id="liste1">
                     <p>Liste des apprenants</p>
                 </div>
+                
                 <div id="liste2">
                     <p>Total x apprenant(s)</p>
                 </div>
-                 <a href="formapprenant.php" class="btn btn-danger">
+                <a type="button" class="btn btn-secondary" href="formapprenant.php">
                     <img src="./images/plus1" alt="" width="40" height="30">
                 </a>
                 <br><br>
@@ -32,7 +33,7 @@
                         <th scope="col">ADRESSE</th>
                         <th scope="col">TELEPHONE</th>
                         <th scope="col">GENRE</th>
-                        <th scope="col">TUTEUR</th>
+                        <th scope="col">NOM DU TUTEUR</th>
                         </tr>
                     </thead>
                     <tbody>

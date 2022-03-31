@@ -9,7 +9,7 @@
             include 'menu.php'
          ?>
         <div id="lien">
-        <button class="btn btn-light"><a href="tutliste.php"><h4>Voir la liste</h4></a></button>
+        <a type="button" class="btn btn-dark" href="tutliste.php">Voir la liste</a>
         </div>
         <div id="texte3">
             <p>Veuillez remplir le formulaire ci-dessous pour ajouter un nouveau tuteur</p>
@@ -18,6 +18,7 @@
         <div id="container">
             
             <form action="insertion_tuteur.php" method="POST">
+            <br>
             <div id="texte4">
             <p>Ajouter Nouveau Tuteur</p>
             </div> 
@@ -36,13 +37,13 @@
 
                 <label><b>Genre</b></label>
                 <select name="genre" id="genre" selected>
-                    <option value="1">Masculin</option>
-                    <option value="2">Féminin</option>
+                    <option value="Masculin">Masculin</option>
+                    <option value="Feminin">Féminin</option>
                 </select>
 
                 <label><b>Profession</b></label>
                 <input type="text" placeholder="Entrer la profession" name="profession" required>
-
+                <br><br><br>
                <div id="bouton">
                     <div id="bouton1" >
                     <input type="submit" name='submit' value='Ajouter' >

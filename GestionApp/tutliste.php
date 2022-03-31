@@ -18,7 +18,7 @@
                 <div id="liste2">
                     <p>Total x tuteur(s)</p>
                 </div>
-                <a href="formtuteur.php" class="btn btn-danger">
+                <a type="button" class="btn btn-secondary" href="formtuteur.php">
                     <img src="./images/plus1" alt="" width="40" height="30">
                 </a>
                 <br><br>

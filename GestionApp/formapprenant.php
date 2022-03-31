@@ -9,7 +9,7 @@
         include 'menu.php'
          ?>
         <div id="lien">
-        <button class="btn btn-light"><a href="appliste.php"><h4>Voir la liste</h4></a></button>
+        <a type="button" class="btn btn-dark" href="appliste.php">Voir la liste</a>
         </div>
         <div id="texte3">
             <p>Veuillez remplir le formulaire ci-dessous pour ajouter un nouveau apprenant</p>
@@ -18,10 +18,11 @@
             <!-- zone de connexion -->
             
             <form action="insertion_app.php" method="POST">
+            <br>
             <div id="texte4">
             <p>Ajouter Nouveau Apprenant</p>
             </div> 
-              <label><b>Tuteur</b></label>
+              <label><b>Nom du tuteur</b></label>
               <select name="codeTuteur">
                 <?php
 
@@ -53,10 +54,10 @@
 
                 <label><b>Genre</b></label>
                 <select name="genre"  selected>
-                    <option value="">Masculin</option>
-                    <option value="">Féminin</option>
+                    <option value="Masculin">Masculin</option>
+                    <option value="Feminin">Féminin</option>
                 </select>
-
+                <br><br><br>
                <div id="bouton">
                     <div id="bouton1" >
                     <input type="submit" name='submit' value='Ajouter' >
